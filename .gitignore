@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual env
+.venv/
+
+# uv
+uv.lock
+
+# OS / editor
+.DS_Store
+.vscode/
+*.code-workspace
+
+# Build-system marker (not part of the repo content)
+.generated-by-build_cases
+
+# Generated plots are tracked as portfolio artifacts — keep them.
